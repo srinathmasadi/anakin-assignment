@@ -1,0 +1,207 @@
+
+.container{
+    width: auto;
+      padding: 5%;
+      height:100vh;
+      background-color: #282c34;
+    }
+    .header{
+        border:1px solid #fff;
+      border-radius: 8px;
+        padding: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .header .filter button{
+        padding: 10px;
+    }
+    hr{
+        margin: 0;
+    }
+    
+    .header .filter input{
+        padding: 10px;
+    }
+    
+    .header .labels{
+        /* padding: 10px; */
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .header .labels button{
+        padding: 10px;
+      
+    }
+    .labels .new-issues{
+        background: rgb(4, 180, 80);
+        border-radius: 8px;
+        border: none;
+        color: #fff;
+        font-weight: bold;
+       width: 120px;
+       height: 40px;
+       margin-left: 15px;
+    }
+    .label-milestones{
+        display: flex;
+        border: 1px solid #fff;
+        border-radius: 8px;
+       
+    }
+    .label-milestones button{
+        background: none;
+        border: none;
+        color: #fff;
+        width: 120px;
+        height: 40px;
+    }
+    .label-milestones .labels{
+        border-right: 1px solid #fff;
+    }
+     .header button svg{
+        margin-left: 5px;
+        transform: rotate(90deg)
+     }
+     .header button svg path{
+        fill: #fff;
+        
+     }
+    .table{
+      width: auto;
+      border: 1px solid #fff;
+      border-radius: 5px;
+      margin-top: 10px;
+     background: #282c34;
+    }
+    .table .boxheader .issues{
+        color: #fff;
+    
+        padding:20px
+    }
+    
+    .table .boxheader{
+    
+       border-radius:  8px 8px 8xp x8px;
+        height: auto;
+        width: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 20px;
+        background:#282c34;
+    }
+    .header button{
+        margin-left: 10px;
+        background: none;
+        border: none;
+        color: #fff;
+    }
+    .menu-header{
+        border: none;
+    }
+    .menu-header button{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+    }
+    .menu-header button svg{
+    margin-left: 10px;
+    }
+    .table .boxheader .header{
+        display: flex;
+        justify-content: space-evenly; 
+        color: #fff;
+    }
+    .table tr{
+        border: 0.5px solid #fff;
+    }
+    .table tr td{
+        color: #fff;
+        padding:20px;
+        
+    }
+
+
+
+    /*Table */
+
+
+    table tr{
+        padding: 20px;
+        border:1px solid rgba(0, 0, 0, 0.1);
+        width: 100%;
+    
+        
+    }
+    thead tr td{
+        padding: 20px;
+    }
+    tbody tr td{
+        padding: 20px;
+    }
+    table{
+        border:1px solid rgba(0, 0, 0, 0.1);
+        width: 100%;
+        height: auto;
+        border-collapse: collapse;
+    
+    }
+     tr td.flex {
+        display:flex;
+        justify-content: space-between;
+    }
+
+
+
+    /*Table */
+    /* Pagination Css */
+    
+    .pagination {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+    
+    .pagination svg {
+        margin: 0 10px;
+    }
+    
+    .pagination li {
+        font-family: 'Rubik';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /* navbar dropdown */
+        color: #ffff;
+        width: 30px;
+        height: 30px;
+        margin: 0 5px;
+        border: 1px solid transparent;
+    }
+    
+    .pagination li:hover {
+        color: #ffff;
+        border: 1px solid #ffff;
+        border-radius: 50%;
+    }
+    
+    .pagination-active {
+        color: #ffff!important;
+        border: 1px solid #ffff!important;
+        border-radius: 50%!important;
+    }
+    
+    .page-link {
+        cursor: pointer;
+    }
+    
+    
+    /* Pagination Css Ends*/
+        
+    
